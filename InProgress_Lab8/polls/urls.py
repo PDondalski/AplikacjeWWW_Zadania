@@ -10,7 +10,7 @@ urlpatterns = [
     path('osobas/<int:pk>/', views.osoba_detail),
     path('osobas/update/<int:pk>/', views.osoba_update),
     path('osobas/delete/<int:pk>/', views.osoba_delete),
-    #path('osobas/add/', views.osoba_add),
+    path('osobas/add/', views.osoba_add),
     #path('osobas_filtered/<slug:slug>', views.osoba_list_filtered),
     #path('stanowiskos/<int:pk>/', views.stanowisko_detail),
     path('stanowiskos/<int:pk>/', views.StanowiskoList.as_view()),

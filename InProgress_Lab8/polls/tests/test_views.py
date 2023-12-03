@@ -2,7 +2,7 @@ from polls.views import osoba_list, stanowisko_list
 from django.test import RequestFactory, TestCase
 from django.urls import reverse
 
-class Osoba_viewTestCase(TestCase):
+class Stanowisko_viewTestCase(TestCase):
     def setUp(self):
         self.factory = RequestFactory()
 

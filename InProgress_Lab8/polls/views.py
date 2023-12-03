@@ -252,7 +252,7 @@ def osoba_detail(request, pk):
     elif request.method == 'DELETE':
         osoba.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
-
+'''
 @api_view(['POST'])
 def osoba_add(request):
     """
@@ -264,7 +264,7 @@ def osoba_add(request):
             serializer.save()
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
+'''
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 '''

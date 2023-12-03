@@ -48,8 +48,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'polls.permissions.CustomDjangoModelPermissions',
-        'rest_framework.permissions.IsAuthenticated',
+        #'polls.permissions.CustomDjangoModelPermissions',
+        #'rest_framework.permissions.IsAuthenticated',
     ],
 }
 
